@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(194, 189, 189);
+    margin: 0px;
+}
+
+header {
+    background-color: hsl(0, 5%, 25%);
+    margin: 10px;
+    padding-top: 1px;
+    padding-left: 20px;
+}
+
+header > h1 {
+    color: white;
+}
+
+header > nav {
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+nav :hover {
+    color: rgb(54, 69, 207);
+} 
+
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.paragrafo {
+    text-indent: 20px;
+}
+
+footer {
+    background-color: hsl(0, 5%, 25%); 
+    text-align: center;
+    color: white;
+    padding: 2px;   
+}
