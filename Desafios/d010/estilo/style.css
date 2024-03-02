@@ -196,6 +196,11 @@ aside > ul {
     list-style-position: inside;
     columns: 2;
 }
+
+abbr {
+    text-decoration: underline;
+}
+
 footer {
     background-color: var(--cor5);
     color: white;
